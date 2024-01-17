@@ -7,7 +7,7 @@ const app = express();
 const port = 2000;
 //const __dirName = "C:/Users/ACER/Desktop/PRECIOUS/pages/yahooCookiePage/pages";
 
-
+//still ask captcha
 // Set up middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
